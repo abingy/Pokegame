@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		589BB4C11EC2CD8200048900 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589BB4C01EC2CD8200048900 /* main.cpp */; };
+		589BB4CB1EC2CDA200048900 /* Pokemon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589BB4C71EC2CDA200048900 /* Pokemon.cpp */; };
+		589BB4CC1EC2CDA200048900 /* Species.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589BB4C91EC2CDA200048900 /* Species.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		589BB4BD1EC2CD8200048900 /* PokeGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PokeGame; sourceTree = BUILT_PRODUCTS_DIR; };
-		589BB4C01EC2CD8200048900 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		589BB4C71EC2CDA200048900 /* Pokemon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pokemon.cpp; path = ../../Pokemon.cpp; sourceTree = "<group>"; };
+		589BB4C81EC2CDA200048900 /* Pokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pokemon.h; path = ../../Pokemon.h; sourceTree = "<group>"; };
+		589BB4C91EC2CDA200048900 /* Species.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Species.cpp; path = ../../Species.cpp; sourceTree = "<group>"; };
+		589BB4CA1EC2CDA200048900 /* Species.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Species.h; path = ../../Species.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		589BB4BF1EC2CD8200048900 /* PokeGame */ = {
 			isa = PBXGroup;
 			children = (
-				589BB4C01EC2CD8200048900 /* main.cpp */,
+				589BB4C71EC2CDA200048900 /* Pokemon.cpp */,
+				589BB4C81EC2CDA200048900 /* Pokemon.h */,
+				589BB4C91EC2CDA200048900 /* Species.cpp */,
+				589BB4CA1EC2CDA200048900 /* Species.h */,
 			);
 			path = PokeGame;
 			sourceTree = "<group>";
@@ -119,7 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				589BB4C11EC2CD8200048900 /* main.cpp in Sources */,
+				589BB4CC1EC2CDA200048900 /* Species.cpp in Sources */,
+				589BB4CB1EC2CDA200048900 /* Pokemon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

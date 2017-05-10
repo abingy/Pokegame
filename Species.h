@@ -14,7 +14,51 @@ enum Rarity {
 
 class Species
 {
+public:
     Species();
     
-    Species();
+    Species(int n, Type t1, Type t2, Rarity r, int steps, bool b, double maleper);
+    
+    void setDexNum(int n);
+    
+    int getDexNum();
+    
+    void setType1(Type t);
+    
+    Type getType1();
+    
+    void setType2(Type t);
+    
+    Type getType2();
+    
+    void setRarity(Rarity r);
+    
+    Rarity getRarity();
+    
+    void setEggSteps(int n);
+    
+    int getEggSteps();
+    
+    void setIsBasic(bool b);
+    
+    bool getIsBasic();
+    
+    void setGenderPercentage(double percent);
+    
+    double getMalePercentage();
+    
+    double getFemalePercentage();
+    
+    double getGenderlessPercentage();
+    
+private:
+    int dexNum;
+    Type type1;
+    Type type2;
+    Rarity rarity;
+    int eggSteps;
+    bool isBasic;
+    double malePercentage;
+    double femalePercentage;
+    double genderlessPercentage;
 };
