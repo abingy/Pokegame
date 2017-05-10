@@ -1,2 +1,2 @@
-#ifndef _SPECIES_H
-#define _SPECIES_H
+#ifndef _SPECIES_H_
+#define _SPECIES_H_
